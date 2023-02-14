@@ -100,5 +100,11 @@ body {
      object-fit: cover;
 }
 
+main .show {
+  /*  width: 90vw;
+  height: 50px; */
+  margin: 0 auto;
+}
+
 /* @import "../Partials/footer";
 @import "../Partials/media"; *//*# sourceMappingURL=style.css.map */
