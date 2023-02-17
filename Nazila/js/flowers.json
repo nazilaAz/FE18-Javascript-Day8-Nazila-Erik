@@ -2,88 +2,108 @@ let flowerlist = ` [{
         "category": "Shrubs",
         "price": 15.99,
         "instructions": "Large double. Good grower, heavy bloomer. Early to mid-season, acid loving plants. Plant in moist well drained soil with pH of 4.0-5.5.",
-        "photo": "image/bouquet-142876_1920.jpg",
+        "photo": "bouquet-142876_1920.jpg",
         "name": "Azalea",
-        "productId": 1
+        "productId": 1,
+        "qty":1
     },
     {
         "category": "Shrubs",
         "price": 33.99,
         "instructions": "Beautiful large royal purple flowers adorn attractive satiny green leaves that turn orange\\/red in cold weather. Grows to up to 18 feet, or prune annually to shorten.",
-        "photo": "image/bouquet-3175315_1920.jpg",
+        "photo": "bouquet-3175315_1920.jpg",
         "name": "Tibouchina Semidecandra",
-        "productId": 2
+        "productId": 2,
+        "qty":1
     },
     {
         "category": "Shrubs",
         "price": 12.99,
         "instructions": "Blooms in summer, 20-35 inches high. Fertilize regularly for best results. Full sun, drought tolerant.",
-        "photo": "image/plants-2810510_1920.jpg",
+        "photo": "plants-2810510_1920.jpg",
         "name": "Hibiscus",
-        "productId": 3
+        "productId": 3,
+        "qty":1
     },
     {
         "category": "Shrubs",
         "price": 5.99,
         "instructions": "Quick-growing, herbaceous, shrub reaching up to 30 inches in height, forming a rounded, dense bush.",
-        "photo": "image/flower-3359072_1920.jpg",
+        "photo": "flower-3359072_1920.jpg",
         "name": "Plectranthus",
-        "productId": 4
+        "productId": 4,
+        "qty":1
     },
     {
         "category": "Shrubs",
         "price": 15.99,
         "instructions": "Slow growing, upright to spreading shrub. Oval, glossy, leaves and profuse winter to spring blooming flowers.",
-        "photo": "image/pastel-4279380_1920.jpg",
+        "photo": "pastel-4279380_1920.jpg",
         "name": "Camellia Japonica",
-        "productId": 5
+        "productId": 5,
+        "qty":1
     },
     {
         "category": "Shrubs",
         "price": 10.99,
         "instructions": "Thorny woody vine scrambles over other plants with their hooked thorns. Pest free.",
-        "photo": "image/pexels-beyzaa-yurtkuran-15350317.jpg",
+        "photo": "pexels-beyzaa-yurtkuran-15350317.jpg",
         "name": "Bougainvillea Spectabilis",
-        "productId": 6
+        "productId": 6,
+        "qty":1
     },
     {
         "category": "Shrubs",
         "price": 22.99,
         "instructions": "Deep purple colored flowers bushy rounded growth habit to 3 feet tall. Plant in full sun. Water regularly.",
-        "photo": "image/pexels-cottonbro-studio-4499854.jpg",
+        "photo": "pexels-cottonbro-studio-4499854.jpg",
         "name": "Rosa Burgundy",
-        "productId": 7
+        "productId": 7,
+        "qty":1
     },
     {
         "category": "Shrubs",
         "price": 22.99,
         "instructions": "Deep purple colored flowers bushy rounded growth habit to 3 feet tall. Plant in full sun. Water regularly.",
-        "photo": "image/pexels-irina-iriser-1233441.jpg",
+        "photo": "pexels-irina-iriser-1233441.jpg",
         "name": "Rosa Iceberg",
-        "productId": 8
+        "productId": 8,
+        "qty":1
     },
     {
         "category": "Container Plants",
         "price": 45.99,
         "instructions": "They do not thrive indoors, where the light is too dim, and humidity too low, for them to grow properly.",
-        "photo": "image/pexels-işıl-agc-15145983.jpg",
+        "photo": "pexels-işıl-agc-15145983.jpg",
         "name": "Bonsai Tree",
-        "productId": 9
+        "productId": 9,
+        "qty":1
     },
     {
         "category": "Container Plants",
         "price": 12.99,
         "instructions": "Blooms continuously from early spring to first frost. Full sun or part shade, moist well-drained soil.",
-        "photo": "image/pexels-lisa-fotios-842847.jpg",
+        "photo": "pexels-cottonbro-studio-4499854.jpg",
         "name": "Calibrachoa Noa",
-        "productId": 10
+        "productId": 10,
+        "qty":1
     },
     {
         "category": "Container Plants",
         "price": 14.99,
         "instructions": "The flowers last about ten weeks. They have a waxy texture and reach a height of more than 20 inches.",
-        "photo": "image/plant-3310274_1920.jpg",
+        "photo": "plant-3310274_1920.jpg",
         "name": "Cymbidium Aestivum",
-        "productId": 11
+        "productId": 11,
+        "qty":1
+    },
+    {
+        "category": "Shrubs",
+        "price": 12.99,
+        "instructions": "Blooms in summer, 20-35 inches high. Fertilize regularly for best results. Full sun, drought tolerant.",
+        "photo": "plants-2810510_1920.jpg",
+        "name": "Hibiscus",
+        "productId": 3,
+        "qty":1
     }
 ]`
