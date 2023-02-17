@@ -47,7 +47,7 @@ for (let i = 0; i < btns.length; i++) {
     btns[i].addEventListener("click", function() {
         addtoCart(jsonFlowers[i]);
         sumCartNumber();
-
+        totalprice();
     })
 }
 
@@ -63,6 +63,7 @@ function addtoCart(product) {
         cartNumber = cartNumber + product.qty
     }
     showCartElement();
+
     //console.log(cart);
 
 }
@@ -79,18 +80,46 @@ function showCartElement() {
         document.getElementById("rowAdd").innerHTML += `
         
             <td>${cartValue.name}</td>
-            <td>${cartValue.price}</td>
+            <td id="price">${cartValue.price}</td>
             <td><img src="image/${cartValue.photo}" style="width:100px;height:100px;"></td>
-            <td>${cartValue.qty}</td>
-            <td><button type="button" class="btn btn-success">+QTY</button></td>
-            <td><button type="button" class="btn btn-warning">-QTY</button></td>
+            <td><span class="qty">${cartValue.qty}</span></td>
+            <td><button type="button" class="btn btn-success add">+QTY</button></td>
+            <td><button type="button" class="btn btn-warning delete">-QTY</button></td>
             <td><button type="button" class="btn btn-danger"><i class="bi bi-trash"></i></button>
             <tr>
-            </tr>
-             
+            </tr>     
     `;
 
     }
+    let addBtn = document.getElementsByClassName("add");
+    for (let i = 0; i < addBtn.length; i++) {
+        addBtn[i].addEventListener("click", function() {
+            cart[i].qty++;
+            document.getElementsByClassName("qty")[i].innerHTML = cart[i].qty;
+            console.log(cart[i].qty);
+            totalprice();
+        })
+    }
 
 
+
+}
+
+
+//current object formatter
+const currencyFormater = new Intl.NumberFormat("de-AT", {
+    style: "currency",
+    currency: "EUR",
+});
+
+
+function totalprice() {
+    let totalP = 0;
+    for (let value of cart) {
+        totalP = totalP + (value.price * value.qty);
+
+    }
+    //  console.log(currencyFormater.format(totalP));
+    document.getElementById("totalPrice").innerHTML = currencyFormater.format(totalP);
+    // 
 }

@@ -147,4 +147,10 @@ main {
         text-align: center;
         margin: 0 auto;
     }
+    .totalPrice {
+        position: relative;
+        left: -18.5rem;
+        background-color: rgba(gray, .5);
+        width: 9rem;
+    }
 }
